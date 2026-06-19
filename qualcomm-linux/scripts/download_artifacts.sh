@@ -479,8 +479,8 @@ main() {
     if [ "$build_type" = "Ubuntu" ]; then
         sudo apt install unzip
         chown -R ubuntu:ubuntu /etc/media/ /etc/labels/ /etc/models/ /etc/data/
-        download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/qdemo/Qdemo.gif" "${output_media_path}/Qdemo.gif" "$force"
-        download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/qdemo/Qdemo.png" "${output_media_path}/Qdemo.png" "$force"
+        download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/qdemo/Qdemo.gif" "${output_media_path}/Qdemo.gif" "$force"
+        download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/qdemo/Qdemo.png" "${output_media_path}/Qdemo.png" "$force"
     fi
 
     # Download the label files with both .labels and .json extensions
@@ -488,13 +488,13 @@ main() {
     # download_labels "https://github.com/quic/sample-apps-for-qualcomm-linux/releases/download/GA1.6-labels/labels.zip" ${output_label_path} "$force"
 
     # Download the necessary artifacts for the face recognition application
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/blendShape.bin" "${output_data_path}/blendShape.bin" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/meanFace.bin" "${output_data_path}/meanFace.bin" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/shapeBasis.bin" "${output_data_path}/shapeBasis.bin" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video.mp4" "${output_media_path}/video.mp4" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video1.mp4" "${output_media_path}/video1.mp4" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video-flac.mp4" "${output_media_path}/video-flac.mp4" "$force"
-    download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video-mp3.mp4" "${output_media_path}/video-mp3.mp4" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/blendShape.bin" "${output_data_path}/blendShape.bin" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/meanFace.bin" "${output_data_path}/meanFace.bin" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/data/shapeBasis.bin" "${output_data_path}/shapeBasis.bin" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video.mp4" "${output_media_path}/video.mp4" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video1.mp4" "${output_media_path}/video1.mp4" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video-flac.mp4" "${output_media_path}/video-flac.mp4" "$force"
+    download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/videos/video-mp3.mp4" "${output_media_path}/video-mp3.mp4" "$force"
 
 
     # Creates copies of the video1.mp4 file 

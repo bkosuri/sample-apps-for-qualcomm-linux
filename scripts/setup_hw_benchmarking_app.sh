@@ -104,11 +104,11 @@ mkdir -p "${outputmodelpath}"
 mkdir -p "${outputlabelpath}"
 
 ### Labels
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/hrnet_pose.json" "${outputlabelpath}/hrnet_pose.json"
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/classification.json" "${outputlabelpath}/classification.json"
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/deeplabv3_resnet50.json" "${outputlabelpath}/deeplabv3_resnet50.json"
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/yolox.json" "${outputlabelpath}/yolox.json"
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/monodepth.json" "${outputlabelpath}/monodepth.json"
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/hrnet_pose.json" "${outputlabelpath}/hrnet_pose.json"
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/classification.json" "${outputlabelpath}/classification.json"
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/deeplabv3_resnet50.json" "${outputlabelpath}/deeplabv3_resnet50.json"
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/yolox.json" "${outputlabelpath}/yolox.json"
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/monodepth.json" "${outputlabelpath}/monodepth.json"
 
 
 ### Model files
@@ -120,4 +120,4 @@ download_file "https://huggingface.co/qualcomm/Yolo-X/resolve/2885648dda847885e6
 
 
 ### Settings
-download_file "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/hrnet_settings.json" "${outputlabelpath}/hrnet_settings.json"z
+download_file "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/artifacts/json_labels/hrnet_settings.json" "${outputlabelpath}/hrnet_settings.json"z

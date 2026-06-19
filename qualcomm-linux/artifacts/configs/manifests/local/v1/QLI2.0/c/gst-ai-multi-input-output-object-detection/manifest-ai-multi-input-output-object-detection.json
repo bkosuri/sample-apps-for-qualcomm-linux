@@ -9,7 +9,7 @@
       "ModelName": "yolov5.tflite",
       "ModelLabelDownloadURL": "",
       "LabelFile": "yolov5.json",
-      "LabelDownloadURL": "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/json_labels/yolox.json"
+      "LabelDownloadURL": "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/json_labels/yolox.json"
     }
   ],
   "AIModelsSupportedByApplication": [],
@@ -17,7 +17,7 @@
   "AILabelLocation": "/etc/labels/",
   "ConfigFile": "config-multi-input-output-object-detection.json",
   "ConfigFileLocation": "/etc/configs/",
-  "MediaFileUrl": "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/videos/video.mp4",
+  "MediaFileUrl": "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/videos/video.mp4",
   "MediaFileName": "video.mp4",
   "MediaLocation": "/etc/media/",
   "ApplicationKeyWords": [

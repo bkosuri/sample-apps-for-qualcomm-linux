@@ -36,7 +36,7 @@
   "AILabelLocation": "/etc/labels/",
   "ConfigFile": "config-superresolution.json",
   "ConfigFileLocation": "/etc/configs/",
-  "MediaFileUrl": "https://raw.githubusercontent.com/quic/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/videos/video.mp4",
+  "MediaFileUrl": "https://raw.githubusercontent.com/qualcomm/sample-apps-for-qualcomm-linux/refs/heads/main/qualcomm-linux/artifacts/videos/video.mp4",
   "MediaFileName": "video.mp4",
   "MediaLocation": "/etc/media/",
   "ApplicationKeyWords": [
